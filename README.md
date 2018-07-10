@@ -5,10 +5,19 @@
 ###### Recommended effort: <i>90-180 hours + Final Project</i>
 ###### Began - <i>10/07/18</i>
 
-|                  |Week 0     | Week 1    | Week 1 cont. | Week 2  | Week 3  | Week 4  | Week 5    | 
-| ---------------- |:---------:| :--------:|:------------:| :------:|:-------:| :------:|:---------:| 
-| <b>Completed</b> | 10/07/18  | 10/07/18  | N/A          | N/A     | N/A     | N/A     | N/A       | 
-
-|                  |Week 6  |Week 6 cont. | Week 7    | Week 8       | Week 9  | Week 10  | Week 11 |
-| ---------------- |:------:|:-----------:| :--------:|:------------:| :------:|:-------:| :-------:|
-| <b>Completed</b> | N/A     |N/A         | N/A       | N/A          | N/A     | N/A     | N/A      | 
+| Week          | Completed  | 
+| :------------:|:----------:| 
+| Week 0        | <ul><li>- [x] 10/07/18</li></ul> | 
+| Week 1        | <ul><li>- [x] 10/07/18</li></ul> | 
+| Week 1 cont.  | <ul><li>- [ ] N/A</li></ul> | 
+| Week 2        | <ul><li>- [ ] N/A</li></ul> | 
+| Week 3        | <ul><li>- [ ] N/A</li></ul> | 
+| Week 4        | <ul><li>- [ ] N/A</li></ul> | 
+| Week 5        | <ul><li>- [ ] N/A</li></ul> | 
+| Week 6        | <ul><li>- [ ] N/A</li></ul> | 
+| Week 6 cont.  | <ul><li>- [ ] N/A</li></ul> | 
+| Week 7        | <ul><li>- [ ] N/A</li></ul> | 
+| Week 8        | <ul><li>- [ ] N/A</li></ul> | 
+| Week 9        | <ul><li>- [ ] N/A</li></ul> | 
+| Week 10       | <ul><li>- [ ] N/A</li></ul> | 
+| Week 11       | <ul><li>- [ ] N/A</li></ul> | 

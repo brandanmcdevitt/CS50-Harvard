@@ -1,4 +1,12 @@
-// Copies a BMP file
+/*
+ resize.c
+ 
+ Brandan McDevitt
+ Harvard Computer Science 50
+ Week 4 Problem Set
+ 
+ Implement a program that resizes BMPs
+ */
 
 #include <stdio.h>
 #include <stdlib.h>

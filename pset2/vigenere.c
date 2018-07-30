@@ -1,4 +1,12 @@
-//Vigenere is a ciphertext program to encrypt your message with a key and display the result.
+/*
+ vigenere.c
+ 
+ Brandan McDevitt
+ Harvard Computer Science 50
+ Week 2 Problem Set
+ 
+ Implement a program that encrypts messages using Vigenère’s cipher.
+ */
 
 #include <stdio.h>
 #include <cs50.h>

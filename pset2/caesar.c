@@ -1,4 +1,12 @@
-//Caesar is a ciphertext program to encipher your message with a key and display the result.
+/*
+ caesar.c
+ 
+ Brandan McDevitt
+ Harvard Computer Science 50
+ Week 2 Problem Set
+ 
+ Implement a program that encrypts messages using Caesar’s cipher.
+ */
 
 #include <stdio.h>
 #include <cs50.h>

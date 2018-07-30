@@ -1,4 +1,12 @@
-// Helper functions for music
+/*
+ helpers.c
+ 
+ Brandan McDevitt
+ Harvard Computer Science 50
+ Week 3 Problem Set
+ 
+ Convert musical notes to frequencies.
+ */
 
 #include <cs50.h>
 #include <string.h>

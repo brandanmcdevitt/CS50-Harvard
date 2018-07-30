@@ -1,4 +1,12 @@
-// Copies a BMP file
+/*
+ whodunit.c
+ 
+ Brandan McDevitt
+ Harvard Computer Science 50
+ Week 4 Problem Set
+ 
+ Implement a program that reveals a hidden message in a BMP.
+ */
 
 #include <stdio.h>
 #include <stdlib.h>

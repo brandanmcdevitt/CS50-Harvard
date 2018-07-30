@@ -1,3 +1,13 @@
+/*
+ cash.c (less)
+ 
+ Brandan McDevitt
+ Harvard Computer Science 50
+ Week 1 Problem Set
+ 
+ Implement a program that calculates the minimum number of coins required to give a user change.
+ */
+
 #include <cs50.h>
 #include <stdio.h>
 #include <math.h>

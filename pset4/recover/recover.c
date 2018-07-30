@@ -1,4 +1,14 @@
- #include <stdio.h>
+/*
+ recover.c
+ 
+ Brandan McDevitt
+ Harvard Computer Science 50
+ Week 4 Problem Set
+ 
+ Implement a program that recovers JPEGs from a forensic image.
+ */
+
+#include <stdio.h>
  #include <stdint.h>
 
  int main()

@@ -3,9 +3,9 @@
 
  Brandan McDevitt
  Harvard Computer Science 50
- Week 4 Problem Set
+ Week 5 Problem Set
 
- Implement a program that recovers JPEGs from a forensic image.
+ Implement a program that spell-checks a file.
  */
 
 #include <stdbool.h>

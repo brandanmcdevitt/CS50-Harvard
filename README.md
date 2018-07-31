@@ -14,7 +14,7 @@
 | Week 3        | Memory                         | pset4         | C           | <ul><li>- [x] 20/07/18</li></ul> | 
 | Week 4        | Data Structures                | pset5         | C           | <ul><li>- [x] 30/07/18</li></ul> | 
 | Week 5        | HTTP                           | N/A           | N/A         | <ul><li>- [x] 31/07/18</li></ul> | 
-| Week 6        | Dynamic Programming            | N/A           | N/A         | <ul><li>- [ ] N/A</li></ul>      | 
+| Week 6        | Dynamic Programming            | N/A           | N/A         | <ul><li>- [x] 31/07/18</li></ul> | 
 | Week 6 cont.  | Dynamic Programming, continued | N/A           | N/A         | <ul><li>- [ ] N/A</li></ul>      | 
 | Week 7        | Python                         | pset6         | Python      | <ul><li>- [ ] N/A</li></ul>      | 
 | Week 8        | SQL                            | pset7         | Python, SQL | <ul><li>- [ ] N/A</li></ul>      | 

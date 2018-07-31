@@ -13,7 +13,7 @@
 | Week 2        | <ul><li>- [x] 16/07/18</li></ul> | 
 | Week 3        | <ul><li>- [x] 20/07/18</li></ul> | 
 | Week 4        | <ul><li>- [x] 30/07/18</li></ul> | 
-| Week 5        | <ul><li>- [ ] N/A</li></ul> | 
+| Week 5        | <ul><li>- [x] 31/07/18</li></ul> | 
 | Week 6        | <ul><li>- [ ] N/A</li></ul> | 
 | Week 6 cont.  | <ul><li>- [ ] N/A</li></ul> | 
 | Week 7        | <ul><li>- [ ] N/A</li></ul> | 

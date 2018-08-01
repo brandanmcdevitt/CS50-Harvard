@@ -3,7 +3,7 @@
  
  Brandan McDevitt
  Harvard Computer Science 50
- Week 3 Problem Set
+ Problem Set 3
  
  Convert musical notes to frequencies.
  */

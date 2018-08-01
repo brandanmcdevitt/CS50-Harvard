@@ -3,7 +3,7 @@
  
  Brandan McDevitt
  Harvard Computer Science 50
- Week 4 Problem Set
+ Problem Set 4
  
  Implement a program that resizes BMPs
  */

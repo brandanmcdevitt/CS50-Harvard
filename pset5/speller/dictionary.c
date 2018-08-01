@@ -3,7 +3,7 @@
 
  Brandan McDevitt
  Harvard Computer Science 50
- Week 5 Problem Set
+ Problem Set 5
 
  Implement a program that spell-checks a file.
  */

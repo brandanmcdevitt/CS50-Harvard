@@ -3,7 +3,7 @@
  
  Brandan McDevitt
  Harvard Computer Science 50
- Week 2 Problem Set
+ Problem Set 2
  
  Implement a program that encrypts messages using Vigenère’s cipher.
  */

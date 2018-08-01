@@ -3,7 +3,7 @@
  
  Brandan McDevitt
  Harvard Computer Science 50
- Week 1 Problem Set
+ Problem Set 1
  
  Implement a program that calculates the minimum number of coins required to give a user change.
  */

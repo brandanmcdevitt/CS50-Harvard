@@ -1,0 +1,39 @@
+<!--
+# history.html
+
+# Brandan McDevitt
+# Harvard Computer Science 50
+# Problem Set 7
+
+# Implement a website via which users can "buy" and "sell" stocks.
+
+-->
+
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+<h1 style="text-align:left;">History</h1>
+<table style="width:100%;text-align:left;">
+  <tr>
+    <th>Symbol</th>
+    <th>Price (time of transaction)</th>
+    <th>Purchased</th>
+    <th>Sold</th>
+    <th>Transaction Date</th>
+  </tr>
+    {% for dat in data %}
+    <tr>
+        <td>{{ dat.symbol }}</td>
+        <td>${{ dat.price }}</td>
+        <td>{{ dat.purchased }}</td>
+        <td>{{ dat.sold }}</td>
+        <td>{{ dat.transaction }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}

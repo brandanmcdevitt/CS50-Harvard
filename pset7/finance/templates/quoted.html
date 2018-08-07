@@ -1,0 +1,22 @@
+<!--
+# quoted.html
+
+# Brandan McDevitt
+# Harvard Computer Science 50
+# Problem Set 7
+
+# Implement a website via which users can "buy" and "sell" stocks.
+
+-->
+
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+
+<p>The current price of {{ name }} ({{ symbol }}) stock is {{ price }}</p>
+
+{% endblock %}

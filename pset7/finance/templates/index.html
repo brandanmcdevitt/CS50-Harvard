@@ -1,0 +1,50 @@
+<!--
+# index.html
+
+# Brandan McDevitt
+# Harvard Computer Science 50
+# Problem Set 7
+
+# Implement a website via which users can "buy" and "sell" stocks.
+
+-->
+
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+<h1 style="text-align:left;">Portfolio</h1>
+<table style="width:100%;text-align:left;">
+  <tr>
+    <th>Symbol</th>
+    <th>Shares</th>
+    <th>Current Price per Share</th>
+    <th>Total</th>
+  </tr>
+    {% for key, value in dataDict.items() %}
+    <tr>
+        <td>{{ key }}</td>
+        <td>{{ value[0] }}</td>
+        <td>${{ value[1] }}</td>
+        <td>${{ value[2] }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<table style="width:50%;text-align:left;margin-top:40px;">
+  <tr>
+    <th>Credit Available</th>
+    <th>Net Worth</th>
+  </tr>
+  <tr>
+      <td>${{ cash }}</td>
+      <td>${{ grandTotal + cash }}</td>
+      </tr>
+</table>
+
+
+
+{% endblock %}

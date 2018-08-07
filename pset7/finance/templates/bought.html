@@ -1,0 +1,47 @@
+<!--
+# bought.html
+
+# Brandan McDevitt
+# Harvard Computer Science 50
+# Problem Set 7
+
+# Implement a website via which users can "buy" and "sell" stocks.
+
+-->
+
+{% extends "layout.html" %}
+
+{% block title %}
+    Bought
+{% endblock %}
+
+{% block main %}
+<h1 style="text-align:left;">Bought</h1>
+<table style="width:100%;text-align:left;">
+  <tr>
+    <th>Symbol</th>
+    <th>Price (time of transaction)</th>
+    <th>Purchased</th>
+    <th>Total</th>
+  </tr>
+    <tr>
+        <td>{{ symbol }}</td>
+        <td>{{ price }}</td>
+        <td>{{ purchased }}</td>
+        <td>{{ total }}</td>
+    </tr>
+    <tr>
+        <td>CASH</td>
+        <td></td>
+        <td></td>
+        <td>{{ newCash }}</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>{{ grandTotal }}</td>
+    </tr>
+</table>
+
+{% endblock %}

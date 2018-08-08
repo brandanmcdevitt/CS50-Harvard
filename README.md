@@ -19,5 +19,5 @@
 | Week 7        | Python                         | pset6         | Python      | <ul><li>- [x] 03/08/18</li></ul> | 
 | Week 8        | SQL                            | pset7         | Python, SQL | <ul><li>- [x] 07/08/18</li></ul> | 
 | Week 9        | JavaScript                     | pset8         | JavaScript  | <ul><li>- [x] 08/08/18</li></ul> | 
-| Week 10       | N/A                            | N/A           | N/A         | <ul><li>- [ ] N/A</li></ul>      | 
+| Week 10       | N/A                            | N/A           | N/A         | <ul><li>- [x] 08/08/18</li></ul> | 
 | Week 11       | The End                        | Final Project | Any         | <ul><li>- [ ] N/A</li></ul>      | 

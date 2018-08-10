@@ -3,7 +3,7 @@
 
 ###### Course Length: <i>12 weeks</i><br/>
 ###### Recommended effort: <i>90-180 hours + Final Project</i>
-###### Began - <i>10/07/18</i>
+###### Began - <i>10/07/18</i>, Finished - <i>10/08/18</i>
 
 | Week          | Lecture                        | Problem Set   | Language    |  Completed                       | 
 | :------------:|:------------------------------:| :------------:| :----------:| :-------------------------------:| 
@@ -20,4 +20,4 @@
 | Week 8        | SQL                            | pset7         | Python, SQL | <ul><li>- [x] 07/08/18</li></ul> | 
 | Week 9        | JavaScript                     | pset8         | JavaScript  | <ul><li>- [x] 08/08/18</li></ul> | 
 | Week 10       | N/A                            | N/A           | N/A         | <ul><li>- [x] 08/08/18</li></ul> | 
-| Week 11       | The End                        | Final Project | Any         | <ul><li>- [ ] N/A</li></ul>      | 
+| Week 11       | The End                        | Final Project | Any         | <ul><li>- [x] 10/08/18</li></ul> | 

@@ -123,7 +123,7 @@ def register():
             return apology("must provide username", 400)
 
         # Query database for username
-        rows = db.execute("SELECT * FROM users")
+        rows = db.execute("SELECT * FROM admin")
 
         # check to see if username already exists in database
         for i in range(len(rows)):

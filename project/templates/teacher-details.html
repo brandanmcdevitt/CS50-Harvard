@@ -1,0 +1,40 @@
+<!--
+# teacher-details.html
+
+# Brandan McDevitt
+# Harvard Computer Science 50
+# Final Project
+
+# A website for struggling students to find available mentoring teachers to help them.
+
+-->
+
+{% extends "layout.html" %}
+
+{% block title %}
+    View Details
+{% endblock %}
+
+{% block main %}
+<h1>Teacher Details</h1>
+<div class="container-inner">
+<div class="navigation">
+        <form action="/teacher-details" method="post">
+            <div class="form-group name">
+                <h2>Select Teacher</h2>
+                <select name="name">
+                    <option value="select">Select</option>
+                    {% for forename, surname in names %}
+                    <option value="{{  forename }}">{{ forename + " " + surname }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+            </div>
+            </div>
+
+
+
+{% endblock %}

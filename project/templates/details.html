@@ -1,0 +1,51 @@
+<!--
+# details.html
+
+# Brandan McDevitt
+# Harvard Computer Science 50
+# Final Project
+
+# A website for struggling students to find available mentoring teachers to help them.
+
+-->
+
+{% extends "layout.html" %}
+
+{% block title %}
+    View Details
+{% endblock %}
+
+{% block main %}
+<h1>Teacher Details</h1>
+<div class="container-inner details">
+    <div class="navigation">
+        <div class="name">
+            <h2>Name</h2>
+                <p>{{ details.forename + " " + details.surname}}</p>
+        </div>
+
+        <div class="address">
+            <h2>Address</h2>
+                <p>{{ details.address }}</p>
+                <p>{{ details.town }}</p>
+                <p>{{ details.county }}</p>
+                <p>{{ details.post_code }}</p>
+        </div>
+
+        <div class="contact">
+            <h2>Contact</h2>
+                <p><span>Preferred Method: </span>{{ details.contact_type }}</p>
+                <p><span>Phone: </span>{{ details.phone }}</p>
+                <p><span>Email: </span>{{ details.email }}</p>
+        </div>
+
+        <div class="subject">
+            <h2>Subject</h2>
+                <p>{{ details.subject }}</p>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock %}

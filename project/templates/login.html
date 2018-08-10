@@ -1,0 +1,40 @@
+<!--
+# login.html
+
+# Brandan McDevitt
+# Harvard Computer Science 50
+# Final Project
+
+# A website for struggling students to find available mentoring teachers to help them.
+
+-->
+
+{% extends "layout.html" %}
+
+{% block title %}
+    Log In
+{% endblock %}
+
+{% block main %}
+    <form action="/login" method="post">
+        <div class="form-group">
+            {% if userError is defined %}
+            <input autocomplete="off" autofocus class="form-control error" name="username" placeholder="{{ userError }}" type="text"/>
+            {% elif bothError is defined %}
+            <input autocomplete="off" autofocus class="form-control error" name="username" placeholder="{{ bothError }}" type="text"/>
+            {% else %}
+            <input autocomplete="off" autofocus class="form-control" name="username" placeholder="Username" type="text"/>
+            {% endif %}
+        </div>
+        <div class="form-group">
+            {% if passError is defined %}
+            <input autocomplete="off" autofocus class="form-control error" name="password" placeholder="{{ passError }}" type="password"/>
+            {% elif bothError is defined %}
+            <input autocomplete="off" autofocus class="form-control error" name="password" placeholder="{{ bothError }}" type="password"/>
+            {% else %}
+            <input autocomplete="off" autofocus class="form-control" name="password" placeholder="Password" type="password"/>
+            {% endif %}
+        </div>
+        <button class="btn btn-primary" type="submit">Log In</button>
+    </form>
+{% endblock %}

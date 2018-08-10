@@ -1,0 +1,40 @@
+<!--
+# select-availability.html
+
+# Brandan McDevitt
+# Harvard Computer Science 50
+# Final Project
+
+# A website for struggling students to find available mentoring teachers to help them.
+
+-->
+
+{% extends "layout.html" %}
+
+{% block title %}
+    View Availability
+{% endblock %}
+
+{% block main %}
+<h1>View Availability</h1>
+<div class="container-inner">
+<div class="navigation">
+        <form action="/select-availability" method="post">
+            <div class="form-group name">
+                <h2>Select Subject</h2>
+                <select name="subject">
+                    <option value="select">Select</option>
+                    {% for subject in subjects %}
+                    <option value="{{  subject }}">{{ subject }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+            </div>
+            </div>
+
+
+
+{% endblock %}

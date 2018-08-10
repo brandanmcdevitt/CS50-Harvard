@@ -1,0 +1,44 @@
+<!--
+# availability.html
+
+# Brandan McDevitt
+# Harvard Computer Science 50
+# Final Project
+
+# A website for struggling students to find available mentoring teachers to help them.
+
+-->
+
+{% extends "layout.html" %}
+
+{% block title %}
+    View Availability
+{% endblock %}
+
+{% block main %}
+<h1 class="nom-bottom">Current Availability</h1>
+<p class="asof">as of:</p>
+<h2 class="nom-top">{{ time }} {{ date }}</h2>
+<div class="container-inner details">
+    <div class="navigation">
+        <div class="subject">
+            <h2>Subject</h2>
+                <p>{{ subject }}</p>
+        </div>
+
+        <div class="name">
+            <h2>Name</h2>
+            {% for key, value in available.items() %}
+                {% if value == "green" %}
+                    <div class="isAvail"><span class="box"></span><span>{{ key }}</span></div>
+                {% elif value == "red" %}
+                    <div class="notAvail"><span class="box"></span><span>{{ key }}</span></div>
+                {% endif %}
+                {% endfor %}
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock %}

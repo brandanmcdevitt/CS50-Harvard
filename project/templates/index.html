@@ -1,0 +1,47 @@
+<!--
+# index.html
+
+# Brandan McDevitt
+# Harvard Computer Science 50
+# Final Project
+
+# A website for struggling students to find available mentoring teachers to help them.
+
+-->
+
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+<h1 class="welcome">Welcome {{ username }}</h1>
+<div class="container-inner">
+    {% if session.user_id %}
+    <h2>Teacher Management Menu</h2>
+    {% endif %}
+<div class="navigation">
+                {% if session.user_id %}
+                    <ul>
+                        <li><a href="/teacher-registration">Register</a></li>
+                        <li><a href="/teacher-details">View Details</a></li>
+                        <li><a href="/select-update">Update Availability</a></li>
+                        <li><a href="/select-availability">View Availability</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="/logout">Log Out</a></li>
+                    </ul>
+                {% else %}
+                    <ul>
+                        <li><a href="/register">Register</a></li>
+                        <li><a href="/login">Log In</a></li>
+                        <li><a href="/select-availability">View Availability</a></li>
+                    </ul>
+                {% endif %}
+            </div>
+            </div>
+
+
+
+{% endblock %}

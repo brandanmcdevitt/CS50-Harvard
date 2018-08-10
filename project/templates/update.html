@@ -1,0 +1,45 @@
+<!--
+# update.html
+
+# Brandan McDevitt
+# Harvard Computer Science 50
+# Final Project
+
+# A website for struggling students to find available mentoring teachers to help them.
+
+-->
+
+{% extends "layout.html" %}
+
+{% block title %}
+    Update Availability
+{% endblock %}
+
+{% block main %}
+<h1>Update Availability</h1>
+<div class="container-inner">
+<div class="navigation">
+        <form class="registration" action="/update" method="post">
+            <div class="form-group name">
+                <h2>Name</h2>
+                <input class="readonly" autocomplete="off" autofocus class="form-control" name="forename" placeholder="{{ details.forename }}" value="{{ details.forename }}" type="text" readonly/>
+                <input class="readonly" autocomplete="off" autofocus class="form-control" name="surname" placeholder="{{ details.surname }}" value="{{ details.surname }}" type="text" readonly/>
+                <input class="readonly" autocomplete="off" autofocus class="form-control" name="subject" placeholder="{{ details.subject }}" value="{{ details.subject }}" type="text" readonly/>
+
+            </div>
+
+            <div class="form-group address">
+                <h2>Availability</h2>
+                <input class="form-control date" name="date" placeholder="Date" type="date"/>
+                <input class="form-control" name="start" type="time"/>
+                <input class="form-control" name="finish" type="time"/>
+            </div>
+
+            <button class="btn btn-primary" type="submit">Register</button>
+        </form>
+            </div>
+            </div>
+
+
+
+{% endblock %}

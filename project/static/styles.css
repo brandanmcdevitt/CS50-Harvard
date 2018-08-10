@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto');
+
+body {
+    background: #528e94;
+    margin: 0;
+    padding: 0;
+    /* background-image: url(https://images.unsplash.com/photo-1495674817798-4455f189de69?ixlib=rb-0.3.5&s=5196a62…&auto=format&fit=crop&w=1949&q=80); */
+    background-image: url(https://images.unsplash.com/photo-1495764294899-5207022ef415?ixlib=rb-0.3.5&s=e7f15cc…&auto=format&fit=crop&w=934&q=80);
+    background-position: 0px -530px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    min-height:100%;
+}
+
+body:before {
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    opacity: .6;
+}
+
+nav.navbar {
+    text-align:  center;
+    font-size:  55px;
+    padding: 20px 0;
+    background:#333;
+    position:relative;
+    z-index:99;
+}
+
+.navbar i {
+    color: #f5f5f5;
+    transition-timing-function:  ease-in-out;
+    transition:  .3s;
+}
+
+.navbar i:hover {
+    transform: scale(1.1);
+}
+
+main.container {
+    text-align:  center;
+    padding:150px 0;
+    position:relative;
+    z-index:99;
+}
+
+input.form-control, input.readonly {
+    /* padding: 10px 70px 10px 10px; */
+    border-radius: 5px;
+    margin: 7px;
+    width: 200px;
+    height: 37px;
+    padding-left: 13px;
+    font-family: "Roboto",sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+input.form-control:focus, button.btn.btn-primary:focus {
+    outline: none;
+}
+
+.form-group button.btn.btn-primary {
+    margin-top:  20px;
+}
+
+button.btn.btn-primary {
+    margin-top: 30px;
+    padding: 10px 45px;
+    border-radius: 5px;
+    background: #fff;
+    color: #04569b;
+    cursor:pointer;
+}
+
+button.btn.btn-primary:hover {
+    opacity: .7;
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+}
+
+main.container ul {
+    list-style:  none;
+    margin:  0;
+    padding:  0;
+}
+
+main.container ul li a {
+    text-decoration:  none;
+    color: #333333;
+    font-family: "Roboto",s;
+    font-weight:  100;
+}
+
+h1, h2, h3 {
+    font-family:  "Montserrat", sans-serif;
+    text-transform:  uppercase;
+    color: #f5f5f5;
+}
+
+.welcome {
+    text-transform:capitalize;
+    font-size: 20px;
+    font-weight: 100;
+    width: 32%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+main.container ul li {
+    margin: 20px 0;
+}
+
+li > a {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+li > a:hover {
+  color: #000;
+}
+
+li > a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    margin-bottom: -6px;
+    background-color: #04569b;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+li > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.container-inner {
+    border: 1px solid #f5f5f5;
+    width: 30%;
+    margin: 0 auto;
+    background: #f5f5f5;
+    padding: 0 30px 70px;
+    border-radius: 25px;
+}
+.container-inner h2 {
+    color: #333333;
+    padding:30px 0;
+    text-transform:capitalize;
+}
+
+.navigation ul:last-child > li {
+    border: 1px solid #333;
+    width: 30%;
+    padding:  10px;
+    border-radius:  5px;
+    margin: 100px auto 20px;
+}
+
+.registration input.form-control, input.readonly {
+    width: 42%;
+    float: left;
+}
+
+form.registration h2 {
+    text-align: left;
+    width: 100%;
+    clear: both;
+    margin: 0;
+}
+.registration button.btn.btn-primary {
+    clear: both;
+    display: block;
+    margin: 30px auto 0;
+    background: #fff;
+}
+
+.registration .form-group {
+    overflow: auto;
+    text-align:left;
+}
+select {
+    -webkit-appearance: none;
+    background: #fff;
+    padding-left: 13px;
+    width: 200px;
+    height: 37px;
+}
+
+select:focus {
+    outline:none;
+}
+
+nav.navbar p {
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: whitesmoke;
+    margin:0 0;
+}
+.details .navigation {
+    text-align:  left;
+}
+
+.details .navigation p, span {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.name, .address, .contact, .subject {
+    overflow: auto;
+}
+.details .navigation p span {
+    opacity: 0.5;
+}
+
+.container-inner.details h2 {
+    color: #333;
+    padding: 10px 0;
+    text-transform: capitalize;
+    opacity: 0.5;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.outer {
+    position:relative;
+}
+
+input.readonly {
+    background: #d0d0d0;
+}
+
+input.form-control.date {
+    margin-right: 16px;
+}
+
+span.box {
+    width: 20px;
+    height: 20px;
+    background: #48ad48;
+    display: inline-block;
+    border: 1px solid #333;
+    margin: 0 5px 0 0;
+}
+
+.notAvail span.box {
+    background: #da3838;
+}
+
+.isAvail span, .notAvail span {
+    vertical-align: middle;
+    margin: 6px 10px 6px 0;
+}
+
+p.asof {
+    font-family: "Roboto",sans-serif;
+    color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+h1.nom-bottom {
+    margin-bottom:  0;
+}
+
+h2.nom-top {
+    margin-top: 0;
+}
+
+.navigation ul:last-child > li:hover {
+    opacity: .6;
+    cursor: pointer;
+}
+
+.error::placeholder {
+    color:red;
+}

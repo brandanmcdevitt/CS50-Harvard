@@ -1,6 +1,8 @@
 # CS50 Harvard University
 #### Harvard University's CS50 Introduction to Computer Science https://cs50.harvard.edu/
 
+<a href="https://courses.edx.org/certificates/user/19872083/course/course-v1:HarvardX+CS50+X" target="_blank"><img src="https://github.com/brandanmcdevitt/CS50.Harvard/blob/master/certificate.png"></a>
+
 ###### Course Length: <i>12 weeks</i><br/>
 ###### Recommended effort: <i>90-180 hours + Final Project</i>
 ###### Began - <i>10/07/18</i>, Finished - <i>10/08/18</i>
